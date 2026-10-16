@@ -21,5 +21,8 @@ public class MainVarian1 {
         mesin.cetak(reguler);
         mesin.cetak(vip);
         System.out.println("Pendapatan Studio 1 : " + bioskop.getStudio(1).hitungPendapatan());
+
+        Tiket t = new TiketVIP("T-099", "Dilan", 50000);
+        System.out.println("Harga T-099 : " + t.hitungHarga()); 
     }
 }
